@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en_US">
+  <head>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="alternate" href="http://scalarsoftware.com" hreflang="en_US">
+<link href="http://gmpg.org/xfn/11" rel="profile">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="theme-color" content="#005344">
+<title> DevOps Interview Questions | Scalar Software</title>
+<meta name="google-site-verification" content="zS1dSn20XtA4FJYEOQLXqI0boxZdMnJ2g3beje-cl20">
+<meta name="description" content="DevOps Interview Questions">
+<meta name="keywords" content="devops interview, devops, devops interview questions, devops career, devops technical interview">
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="http://scalarsoftware.com/devops-interview-questions">
+<meta property="og:title" content=" DevOps Interview Questions | Scalar Software">
+<meta property="og:description" content="DevOps Interview Questions">
+<meta property="og:site_name" content="Scalar Software">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:author" content="">
+<meta property="og:image" content="http://scalarsoftware.com">
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@scalarsoftware">
+<meta name="twitter:domain" content="http://scalarsoftware.com">
+<meta name="twitter:title" content=" DevOps Interview Questions | Scalar Software">
+<meta name="twitter:description" content="DevOps Interview Questions">
+<meta name="twitter:image:src" content="http://scalarsoftware.com">
+<!-- rel prev and next -->
+<!-- Canonical link tag -->
+<link rel="canonical" href="http://scalarsoftware.com/devops-interview-questions">
+<link rel="alternate" type="application/rss+xml" title="Scalar Software" href="http://scalarsoftware.com/feed.xml">
+<link rel="stylesheet" href="/assets/main-e03fd29918e6a55fb4e40f4e044772fc.css">
+<script src="/assets/modernizr-custom-cb807611a3e262b2eac59444cbab74d6.js" data-cfasync="false"></script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Website",
+  "publisher": "scalarsoftware.com",
+  "url": "http://scalarsoftware.com/",
+  "description": "DevOps Consulting"
+}
+</script>
+<script type="text/javascript">
+  var disqus_shortname = 'scalarsoftware',
+      baseurl          = '';
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-46264021-3']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body class="post-template single">
+    <header class="header">
+  <div class="container">
+    <h1><a href="/"><strong>scalar software</strong></a></h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="#!" data-modal="modalSearch"><i class="fa fa-search"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="wrapper container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+      <article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <header class="post-header">
+    <h1>DevOps Interview Questions</h1>
+    <div class="post-meta">
+      <time datetime="2015-10-13">
+        <i class="fa fa-calendar-o"></i> <time datetime="2016-01-10"> 2016-01-10
+      </time>
+      <span>
+        <i class="fa fa-comments"></i> <a href="/devops-interview-questions#disqus_thread" data-disqus-identifier="/devops-interview-questions">Leave a comment</a>
+      </span>
+      <span>
+        <i class="fa fa-folder-open-o"></i> <a href="/category/devops/">DevOps</a>
+      </span>
+    </div>
+  </header>
+  <p>In this blog post we are going to list potential questions that will be asked during a DevOps interview. The goal of this post is to prepare you for your next DevOps interview.</p>
+<h4 class="no_toc" id="table-of-contents">Table of Contents</h4>
+<ul id="markdown-toc">
+  <li><a href="#software-delivery-questions" id="markdown-toc-software-delivery-questions">Software Delivery Questions</a></li>
+  <li><a href="#source-control-questions" id="markdown-toc-source-control-questions">Source Control Questions</a></li>
+  <li><a href="#testing-questions" id="markdown-toc-testing-questions">Testing Questions</a></li>
+  <li><a href="#architecture-questions" id="markdown-toc-architecture-questions">Architecture Questions</a></li>
+  <li><a href="#general-programming-questions" id="markdown-toc-general-programming-questions">General Programming Questions</a></li>
+  <li><a href="#database-questions" id="markdown-toc-database-questions">Database Questions</a></li>
+  <li><a href="#linux-questions" id="markdown-toc-linux-questions">Linux Questions</a></li>
+  <li><a href="#security-questions" id="markdown-toc-security-questions">Security Questions</a></li>
+  <li><a href="#cloud-questions" id="markdown-toc-cloud-questions">Cloud Questions</a></li>
+  <li><a href="#configuration-management-questions" id="markdown-toc-configuration-management-questions">Configuration Management Questions</a></li>
+  <li><a href="#container-questions" id="markdown-toc-container-questions">Container Questions</a></li>
+  <li><a href="#fun-questions" id="markdown-toc-fun-questions">Fun Questions</a></li>
+  <li><a href="#summary" id="markdown-toc-summary">Summary</a></li>
+</ul>
+<h4 id="software-delivery-questions">Software Delivery Questions</h4>
+<ul>
+  <li>
+    <p>What is Continuous Integration?</p>
+  </li>
+  <li>
+    <p>What CI tools have you used?
+<em>Example: <a href="https://jenkins-ci.org/">Jenkins</a>.</em></p>
+  </li>
+  <li>
+    <p>What is Continuous Delivery and why is it important?</p>
+  </li>
+  <li>
+    <p>What is Continuous Deployment?</p>
+  </li>
+  <li>
+    <p>Explain the importance of A/B testing and how it relates to software delivery</p>
+  </li>
+  <li>
+    <p>What are your favorite deployment techniques and why?
+<em>Examples include: <a href="http://www.ebaytechblog.com/2013/11/21/zero-downtime-instant-deployment-and-rollback/">0 downtime</a>, <a href="http://martinfowler.com/bliki/CanaryRelease.html">Canary</a>, or <a href="http://martinfowler.com/bliki/BlueGreenDeployment.html">Blue/Green</a> deployments.</em></p>
+  </li>
+  <li>
+    <p>Explain a time when a software release has gone poorly</p>
+  </li>
+</ul>
+<h4 id="source-control-questions">Source Control Questions</h4>
+<ul>
+  <li>
+    <p>What types of source control programs are you comfortable with?</p>
+  </li>
+  <li>
+    <p>What are the benefits of using source control?</p>
+  </li>
+  <li>
+    <p>Describe branching strategies you have used</p>
+  </li>
+  <li>
+    <p>Give an example of a good commit message</p>
+  </li>
+</ul>
+<h4 id="testing-questions">Testing Questions</h4>
+<ul>
+  <li>
+    <p>Talk about different types of automated testing you have implemented</p>
+  </li>
+  <li>
+    <p>What is the importance of software testing?</p>
+  </li>
+  <li>
+    <p>What testing paradigms do you use, if any?</p>
+  </li>
+  <li>
+    <p>Explain the difference between unit and end to end testing</p>
+  </li>
+  <li>
+    <p>Have you used any testing frameworks? If so, which ones?</p>
+  </li>
+</ul>
+<h4 id="architecture-questions">Architecture Questions</h4>
+<ul>
+  <li>
+    <p>Explain what a RESTful architecture is</p>
+  </li>
+  <li>
+    <p>How would you scale a slow website?</p>
+  </li>
+  <li>
+    <p>Your application just got millions of users overnight, what do you do?</p>
+  </li>
+  <li>
+    <p>What are some ways to increase client-side performance?</p>
+  </li>
+  <li>
+    <p>Can you explain the significance of a primary/replica database architecture?</p>
+  </li>
+  <li>
+    <p>What are some caching strategies you can implement to increase performance?</p>
+  </li>
+  <li>
+    <p>What are the advantages and disadvantages of implementing a Microservices architecture?</p>
+  </li>
+  <li>
+    <p>What is the difference between vertical and horizontal scalability?</p>
+  </li>
+</ul>
+<h4 id="general-programming-questions">General Programming Questions</h4>
+<ul>
+  <li>
+    <p>What languages are your most comfortable with?</p>
+  </li>
+  <li>
+    <p><a href="https://www.google.ca/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=programming%20interview%20questions">Google</a> is your friend</p>
+  </li>
+</ul>
+<h4 id="database-questions">Database Questions</h4>
+<ul>
+  <li>
+    <p>What is the difference between a relational and non-relational database?</p>
+  </li>
+  <li>
+    <p>When do we optimize the database?</p>
+  </li>
+  <li>
+    <p>Can you give some ways to optimize the performance of a database?</p>
+  </li>
+  <li>
+    <p>What does A.C.I.D mean?</p>
+  </li>
+  <li>
+    <p>How can you customize the query plan to increase throughput?</p>
+  </li>
+  <li>
+    <p>Explain how you would do Database Continuous Delivery</p>
+  </li>
+</ul>
+<h4 id="linux-questions">Linux Questions</h4>
+<ul>
+  <li>
+    <p>How to view running processes in Linux?</p>
+  </li>
+  <li>
+    <p>How do you check server uptime?</p>
+  </li>
+  <li>
+    <p>How do you start/stop services?</p>
+  </li>
+  <li>
+    <p>How do you display the shell’s environment variables?</p>
+  </li>
+  <li>
+    <p>What adding <code>#!/bin/bash</code> at the top of a script do?</p>
+  </li>
+  <li>
+    <p>What does a <code>&amp;</code> after a command do?</p>
+  </li>
+  <li>
+    <p>What does <code>piping</code> commands mean?</p>
+  </li>
+  <li>
+    <p>What distributions have you used on servers?</p>
+  </li>
+</ul>
+<h4 id="security-questions">Security Questions</h4>
+<ul>
+  <li>
+    <p>What is the importance of SSL?</p>
+  </li>
+  <li>
+    <p>What is a SQL injection?</p>
+  </li>
+  <li>
+    <p>What is cross-site scripting (XSS)?</p>
+  </li>
+  <li>
+    <p>Why shouldn’t you roll your own crypto?</p>
+  </li>
+  <li>
+    <p>How are passwords stored on databases?</p>
+  </li>
+  <li>
+    <p>What is a Man-in-the-middle attack?</p>
+  </li>
+  <li>
+    <p>How do you safely manage environment variables in a cloud environment?</p>
+  </li>
+</ul>
+<h4 id="cloud-questions">Cloud Questions</h4>
+<ul>
+  <li>
+    <p>Which cloud providers are you familiar with?</p>
+  </li>
+  <li>
+    <p>What are the benefits of using a cloud provider?</p>
+  </li>
+  <li>
+    <p>Have you managed production systems in the past?</p>
+  </li>
+</ul>
+<h4 id="configuration-management-questions">Configuration Management Questions</h4>
+<ul>
+  <li>Which Configuration Management tools are you most comfortable with?
+<em>Examples include: Chef, Salt, Puppet, or Ansible.</em></li>
+</ul>
+<h4 id="container-questions">Container Questions</h4>
+<ul>
+  <li>
+    <p>How does Docker improve scalability, distributed computing, and efficiency vs. traditional cloud virtual machines?</p>
+  </li>
+  <li>
+    <p>List some Docker use cases</p>
+  </li>
+</ul>
+<h4 id="fun-questions">Fun Questions</h4>
+<ul>
+  <li>
+    <p>What new technology would you like to learn?</p>
+  </li>
+  <li>
+    <p>Have you worked on any side projects?</p>
+  </li>
+  <li>
+    <p>Do you contribute to any open source projects?</p>
+  </li>
+</ul>
+<h4 id="summary">Summary</h4>
+<p>Although you may not get asked everything in this post, it’s always good to be prepared for your next interview.</p>
+<p><sub><em>If you have any questions, feel free to leave a comment or email us at: info@scalarsoftware.com</em></sub></p>
+  <footer class="post-footer">
+    <section class="author">
+      <h4>Scalar Software</h4>
+      <p>DevOps Consulting</p>
+    </section>
+<aside class="share">
+  <h4>Share this.</h4>
+  <a href="http://twitter.com/share?text=DevOps Interview Questions&amp;url=http://scalarsoftware.com/devops-interview-questions&amp;via=scalarsoftware"
+  onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://scalarsoftware.com/devops-interview-questions"
+  onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+    <i class="fa fa-facebook-square"></i>
+  </a>
+  <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://scalarsoftware.com&title=DevOps Interview Questions"
+  onclick="window.open(this.href, 'linkedin-share','width=580,height=296');return false;">
+    <i class="fa fa-linkedin-square"></i>
+  </a>
+</aside>
+      <hr>
+<aside id="comments" class="disqus">
+  <h3 class="txt-center"><i class="fa fa-comments"></i> Comments</h3>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier = '/devops-interview-questions';
+    var disqus_title = 'DevOps Interview Questions';
+    var disqus_url = 'http://scalarsoftware.com/devops-interview-questions';
+    /*var disqus_developer = 1;*/
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+</aside>
+  </footer>
+</article>
+    </main>
+<footer class="footer">
+  <div class="container" id="footer-container" style="width: 440px;">
+	<form action="//formspree.io/support@scalarsoftware.com"
+	      method="POST">
+	    <small class="clearfix">
+	      Subscribe for updates
+	    </small>
+	    <div style="float:left;">
+	    <input type="email" name="_replyto" style="height:62px;" required >
+	    <input type="hidden" name="_subject" value="scalarsoftware.com form" />
+	    <input type="text" name="_gotcha" style="display:none" />
+	    <input type="hidden" name="_cc" value="info@scalarsoftware.com" />	
+	    </div>
+	    <div class="submitter" style="float:right">
+	    <input type="submit" value="Subscribe">
+	    </div>
+	</form> 
+  </div>
+</footer>
+<a class="scroll-up fa fa-chevron-up" href="#" data-position="0"></a>
+<style type="text/css">
+@media (max-device-width: 405px) {
+	#footer-container{
+		width: 206px !important;
+	}
+}
+</style>
+<div id="modalSearch" class="modal">
+  <div class="modal__overlay"></div>
+  <div class="modal__content">
+    <a href="#!" class="modal-close" data-modal-close>&times;</a>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search">
+      <ul id="results-container"></ul>
+    </div>
+  </div>
+</div>
+    <script src="/assets/main-52d417e8a6ff9f5b168386d37c96338a.js"></script>
+  </body>
+</html>
